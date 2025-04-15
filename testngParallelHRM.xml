@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite2" thread-count="3" parallel="tests">
+  <test name="ParallelTestingHRM_Chrome">
+	  <parameter name="Browser" value="Chrome"></parameter>
+    <classes>
+      <class name="ParametersTestNG_Class48.Assignment_CrossBrowserTestingOrangeHRM"/>
+    </classes>
+  </test> <!-- ParallelTestingHRM -->
+  
+ <test name="ParallelTestingHRM_Edge">
+	 <parameter name="Browser" value="Edge"></parameter>
+    <classes>
+      <class name="ParametersTestNG_Class48.Assignment_CrossBrowserTestingOrangeHRM"/>
+    </classes>
+  </test> <!-- ParallelTestingHRM -->
+  
+  <test name="ParallelTestingHRM_FireFox">
+	  <parameter name="Browser" value="FireFox"></parameter>
+    <classes>
+      <class name="ParametersTestNG_Class48.Assignment_CrossBrowserTestingOrangeHRM"/>
+    </classes>
+  </test> <!-- ParallelTestingHRM -->
+  
+</suite> <!-- Suite2 -->

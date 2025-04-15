@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OTS]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Freelance_RegressionTestScearios(failed)">
+    <classes>
+      <class name="TestNG_Class46.TestNGExample4">
+        <methods>
+          <include name="logout"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- TestNG_Class46.TestNGExample4 -->
+    </classes>
+  </test> <!-- Freelance_RegressionTestScearios(failed) -->
+</suite> <!-- Failed suite [OTS] -->

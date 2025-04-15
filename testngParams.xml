@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="TestParams">
+	  <parameter name="username" value="Alok"></parameter>
+	  <parameter name="password" value="Alok@123"></parameter>
+    <classes>
+      <class name="ParametersTestNG_Class48.ParameterExample"/>
+    </classes>
+  </test> <!-- TestParams -->
+  
+  <test name="TestParams2">
+	  <parameter name="username" value="Gaurav"></parameter>
+	  <parameter name="password" value="Gaurav@123"></parameter>
+    <classes>
+      <class name="ParametersTestNG_Class48.ParameterExample"/>
+    </classes>
+  </test> <!-- TestParams -->
+  
+  <test name="TestParams3">
+	  <parameter name="username" value="Arpita"></parameter>
+	  <parameter name="password" value="Arpita@123"></parameter>
+    <classes>
+      <class name="ParametersTestNG_Class48.ParameterExample"/>
+    </classes>
+  </test> <!-- TestParams -->
+  
+</suite> <!-- Suite -->

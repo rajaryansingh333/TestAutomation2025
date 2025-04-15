@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OTS">
+  <test name="Freelance_SmokeTestScearios">
+    <classes>
+      <class name="TestNG_Class46.TestNGExample2"/>
+      <class name="TestNG_Class46.IntroductionToTestNG"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="Freelance_RegressionTestScearios">
+    <classes>
+      <class name="TestNG_Class46.TestNGExample4"/>
+      <class name="TestNG_Class46.TestNGExample3"/>
+    </classes>
+  </test> <!-- Test --> 
+   <test name="Freelance_E2ETestScearios">
+    <classes>
+      <class name="TestNG_Class46.TestNGExample5"/>
+    </classes>
+  </test> <!-- Test --> 
+  
+</suite> <!-- Suite -->

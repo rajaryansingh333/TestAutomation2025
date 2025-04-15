@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="3">
+  <test name="CrossBrowserEdge">
+	  <parameter name="Browser" value="Edge"></parameter>
+    <classes>
+      <class name="TestNGSelenium_Class47.TestNGFirstClass">	  
+	     <methods>
+			 
+		     <include name="VerifyURL"/>
+		     <include name="VerifyTitle"/>
+		     <exclude name="VerifyFooterLinks"/> 
+	      </methods>
+	</class>        
+    </classes>
+  </test> <!-- CrossBrowserTesting -->
+  
+  <test name="CrossBrowserChrome">
+	  <parameter name="Browser" value="Chrome"></parameter>
+    <classes>
+      <class name="TestNGSelenium_Class47.TestNGFirstClass"/>
+    </classes>
+  </test> <!-- CrossBrowserTesting -->
+  
+  <test name="CrossBrowserFirefox">
+	  <parameter name="Browser" value="Firefox"></parameter>
+    <classes>
+      <class name="TestNGSelenium_Class47.TestNGFirstClass"/>
+    </classes>
+  </test> <!-- CrossBrowserTesting -->  
+</suite> <!-- Suite -->
+
+<!-- for only cross browser lunch or similar activity we may use this simple data format 
+of xml for rest everything, whether it's complex data, mutiple params, mutiple config file
+we will we using configuration file concepts. we will use complex data in form of excel.
+ this is called cross browser testing with sequencial executions
+ 
+ Later in this xml we have added parallel="true" thread-count="3" to achive the parallel
+ execution. by default at least 1 thread is assigned.
+ when a thread got free and there is no test to assign, it will go on idle stage.
+ parallel="tests" assign threads to each tests.
+ 
+ -->
